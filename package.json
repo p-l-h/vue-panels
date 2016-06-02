@@ -1,7 +1,7 @@
 {
   "name": "vue-panels",
   "description": "vue.js panels",
-  "author": "Peilonghui <peilonghui@baijiahulian.com>",
+  "author": "pzforever10 <pzforever10@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
