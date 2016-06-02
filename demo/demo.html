@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-panels</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <panels>
+        <panel v-ref:left position="left" size="80%" title="左侧panel">
+            我在左边
+        </panel>
+        <panel v-ref:right position="right" size="80%" title="右侧panel">
+            我在右边
+        </panel>
+    </panels>
+    <button type="button" @click="open('left')">打开左侧</button>
+    <button type="button" @click="open('right')">打开右侧</button>
+
+    <script src="/demo/bundle.js"></script>
+  </body>
+</html>
