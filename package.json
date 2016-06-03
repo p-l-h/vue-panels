@@ -1,6 +1,7 @@
 {
   "name": "vue-panels",
   "description": "vue.js panels",
+  "version": "0.0.1",
   "author": "pzforever10 <pzforever10@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
